@@ -38,10 +38,11 @@ const ListPeliculasYear = () => {
         const groupByYear = groupBy('Year');
         const peliculasAgrupadas = groupByYear(tmpPeliculas);
         setPeliculas(peliculasAgrupadas);
-        console.log('peli:',peliculasAgrupadas);
+     
         
         
     }
+    console.log('peli:',peliculas);
  
 
 
