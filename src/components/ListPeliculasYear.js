@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 const ListPeliculasYear = () => {
     const [peliculas, setPeliculas] = useState([])
 
-    const numeroTotal = 6
+    const numeroTotal = 277
     let tmpPeliculas = [];
 
 
